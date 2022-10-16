@@ -1,23 +1,16 @@
 .pad {
     padding: 0;
     border: none;
-    margin: 0;
-}
-.left {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-.right {
-    position: absolute;
-    right: 0;
-    bottom: 0;
 }
 div {
     position: relative;
     padding: 10px;
     border: 2px solid black;
     margin: 20px;
+}
+#Text {
+    margin: auto;
+    display: block;
 }
 #Game {
     margin: 0 auto;
@@ -29,4 +22,10 @@ div {
 }
 #canvas {
     border: 2px solid black;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }
