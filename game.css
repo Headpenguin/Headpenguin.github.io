@@ -1,0 +1,32 @@
+.pad {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+.left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div {
+    position: relative;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+}
+#Game {
+    margin: 0 auto;
+    padding: 0px 20px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #555555;
+}
+#canvas {
+    border: 2px solid black;
+}
