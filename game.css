@@ -50,4 +50,6 @@ img {
 #tradeMap {
     position:static;
 }
-
+#Map {
+	width: 880px;
+}
