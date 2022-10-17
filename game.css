@@ -23,6 +23,7 @@ div {
 }
 #Map {
     float: right;
+    width: 880px;
 }
 #canvas {
     border: 2px solid black;
@@ -49,7 +50,4 @@ img {
 }
 #tradeMap {
     position:static;
-}
-#Map {
-	width: 880px;
 }
