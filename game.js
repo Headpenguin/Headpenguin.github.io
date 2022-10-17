@@ -100,9 +100,12 @@ var initialTextBoxLength;
 
 function nextText() {
     out.innerHTML = currentList[currentText];
-    for(conds in images) {
-        if(conds[0] === totalClicks && conds[2] === route) {
-            image = document.getElementById(conds[1]);
+    totalClicks++;
+    for(i = 0; i < images.length; i++) {
+        console.log(images[i]);
+        if(images[i][0] === totalClicks && image[i][2] === route) {
+            console.log(images[i][1]);
+            image = document.getElementById(images[i][1]);
             image.style.zIndex = String(parseInt(image.style.zIndex) + 16);
         }
     }
@@ -130,7 +133,7 @@ function prevText() {
     nextButton.disabled = false;
     if(currentText <= 0) prevButton.disabled = true
     out.innerHTML = currentList[currentText];
-    totalClick--;
+    totalClicks--;
 }
 
 function option1() {
