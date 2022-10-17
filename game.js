@@ -80,12 +80,12 @@ images = [
     [11, "returning", 1],
     [12, "failing", 1],
     [13, "success", 1],
-    [14, "seaRough", 1],
-    [15, "palembang", 1],
-    [76, "mangaloreSail", 1],
-    [18, "mangalore", 1],
-    [20, "bukhara", 0],
-    [21, "kashgar", 0]
+    [15, "seaRough", 1],
+    [16, "palembang", 1],
+    [17, "mangaloreSail", 1],
+    [19, "mangalore", 1],
+    [21, "bukhara", 0],
+    [22, "kashgar", 0]
 ];
 
 var currentText = 0;
