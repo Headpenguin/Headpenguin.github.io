@@ -33,3 +33,17 @@ div {
 .right {
     float: right;
 }
+#Pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 800px;
+    height: 500px;
+}
+img {
+    position: absolute;
+}
+#formation {
+    z-index: 1;
+}

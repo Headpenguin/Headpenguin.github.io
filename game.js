@@ -103,10 +103,10 @@ function nextText() {
     totalClicks++;
     for(i = 0; i < images.length; i++) {
         console.log(images[i]);
-        if(images[i][0] === totalClicks && image[i][2] === route) {
+        if(images[i][0] === totalClicks && images[i][2] === route) {
             console.log(images[i][1]);
             image = document.getElementById(images[i][1]);
-            image.style.zIndex = String(parseInt(image.style.zIndex) + 16);
+            image.style.zIndex = String(totalClicks);
         }
     }
     if(currentText > 0) prevButton.disabled = false;
@@ -166,7 +166,6 @@ function option2() {
 }
 
 function init() {
-    var canvas = document.getElementById("canvas");
     nextButton = document.getElementById("next");
     prevButton = document.getElementById("prev");
     out = document.getElementById("Text");
@@ -174,15 +173,6 @@ function init() {
     initialTextBoxLength = textBox.length;
     out.innerHTML = "Welcome! Hit the \"next\" button to proceed and the \"previous\" button to go back";
     prevButton.disabled = true;
-    var ctx = canvas.getContext('2d');
-    ctx.fillStyle = '#F0DB4F';
-    ctx.strokeStyle = 'red';
-    ctx.fillRect(50, 50, 150, 100);
-    var test = new Image();
-    test.onload = () => {
-        ctx.drawImage(test, 0, 0);
-    };
-    test.src = "devil-bayer.png";
 }
 
 document.addEventListener("DOMContentLoaded", init, false);
