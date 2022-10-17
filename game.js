@@ -69,6 +69,28 @@ var masterText = [
         ]
     ]
 ];
+images = [
+    [2, "mining", 0],
+    [3, "carving", 0],
+    [5, "merchant", 0],
+    [7, "disguise", 0],
+    [8, "throwing", 0],
+    [9, "picking", 0],
+    [10, "thinking", 0],
+    [11, "returning", 1],
+    [12, "failing", 1],
+    [13, "success", 1],
+    [14, "seaRough", 1],
+    [15, "palembang", 1],
+    [76, "mangaloreSail", 1],
+    [18, "mangalore", 1],
+    [20, "bukhara", 0],
+    [21, "kashgar", 0]
+];
+
+
+
+];
 var currentText = 0;
 var currentList = masterText;
 var nextButton;
