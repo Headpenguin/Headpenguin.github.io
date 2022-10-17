@@ -7,7 +7,7 @@ var masterText = [
     [
         [
             "Follow the military convoy ahead of us",
-            "Upon following the military convoy, my merchant was glad, as there were few oases across the massive desert. The merchant bringing me eastward was hoping to swap me out with a piece of white jade at the funeral, as that would be far more valuable. Once we arrived at our destination in Chang’an, I was met with the wonders of the beautiful mountains, protecting the city from invaders. I saw the countless Muslims, Buddhists, and Taoists roaming the streets. I even saw the Big Goose Pagoda in all of its glory, housing Buddhist scripts brought from India. However, it was time for the funeral of the official. My merchant was planning to disguise himself as a . . . "
+            "Upon following the military convoy, my merchant was glad, as there were few oases across the massive desert. The merchant bringing me eastward was hoping to swap me out with a piece of white jade at the funeral, as that would be far more valuable. Once we arrived at our destination in Chang’an, I was met with the wonders of the beautiful mountains, protecting the city from invaders. I saw the countless Muslims, Buddhists, and Taoists roaming the streets. I even saw the Big Goose Pagoda in all of its glory, housing Buddhist scripts brought from India. However, it was time for the funeral of the official. My merchant was planning to disguise himself as a . . . ",
             [[
                 "Low ranking official",
                 "To achieve this, he got a futou as a disguise from some of the foreign traders he interacted with as a loan. From there, he could swap the white jade with me, and nobody would notice. Then, he would split the profits of the white jade with his accomplices after returning the disguise. However, there were also risks involved. It is extraordinarily rare for a merchant to attend a funeral, so for this merchant to get close enough to the jade to obtain it would be near impossible. Fortunately for me, though much to my dismay at the time, the merchant underestimated the attentiveness of the surrounding officials. Specifically, he assumed that the best way to go undetected was by disguising himself as the lowest official. He did not realize that since the lowest official would have known the most people at the funeral, the lowest official would be the most difficult to impersonate. The merchant could easily have pretended to be the emperor, whom very few people knew at the time anyway. Therefore, the merchant was caught and quickly punished, and I avoided being buried back into the earth where I had been just a year before. Since a search of the merchant quickly revealed my presence, the officials were suspicious that I was stolen, but upon taking inventory of the jade being prepared to be buried, they quickly deduced that the merchant had bought me with him. Believing me to be a source of evil, the officials quickly took me away from the palace and threw me into the hustling, bustling city.",
@@ -16,6 +16,8 @@ var masterText = [
                 "Though I did not realize at the time what the cause was, I knew that the people I was guarding, now several generations beyond the first civilian I met, did not come home, and I quickly deduced that they had died. At the time, there was great civil unrest, as the government was falling apart and being overthrown. The loneliness would have been unbearable, and at first it was, but much to my relief, one of the family members had managed to survive. The returning family member was a . . . ",
                 [[
                     "Son",
+                    "This son was in a somewhat desparate circumstance, but due to his gender, he was able to find another family to stay with. In order to ensure his safety, he brought me along with him for the ride. I continued protecting him and his new family for many more years, and the great period of peace which followed meant that his family would not disappear on me again.",
+                    "You may have reached one ending, but you most certainly have not reached the final ending. Refresh the page, and try to keep the story going!"
                 ],[
                     "Daughter",
                     "This daughter was clearly in the most desperate of circumstances, not only left with no one to help her tend to the farm, but also left in the lowest of social positions. As a result, her next move was very understandable.",
@@ -24,25 +26,31 @@ var masterText = [
                     "That night, . . . ",
                     [[
                         "My ship was struck by lightning.",
+                        "After the lightning strike, the ship was aflame, and the massive complex slowly began to burn. I was in a lower section of the ship, so I was fortunately spared the trouble of being engulfed in flames. However, without the sturdy walls of the ship, I slowly sank to the bottom of the sea.",
+                    "You may have reached one ending, but you most certainly have not reached the final ending. Refresh the page, and try to keep the story going!"
                     ],[
                         "Absolutely nothing special happened",
                         "Once the ship left, I felt the rockiness of the sea and the repeated banging of the wall, against my head, then against my tail, then once again against my head, and against my tail . . . ",
                         "Over the course of my journey to Palembang, where the trader was planning to make a stop, I feared that I would shatter. Luckily, as a piece of jade, I had an obscenely high hardness, so I did not get so much as a scratch, and the carver who made me carved me in such a way that I would have no weak points that would result in me fracturing. After much time, we finally arrived in Palembang. Once we arrived, I was met with the sights of the one of the richest cities in the world. Here, gold bars were thrown into the ocean every day, countless traders were present, and there was plenty of food available for outgoing traders. Merchants rode in canoes ninety feet in length, and my owner clearly had a market to sell to. Of course, my owner was rather reluctant, as most traders here were Buddhists, not Muslim, but he still proceded to trade what he had anyways. The whole time, I was hoping my owner would not find another Muslim to trade with, since if he did, it would be far more likely that he would attempt to trade me as well. Luckily for me, he . . . ",
                         [[
                             "Did find another Muslim trader",
-                            "Upon finding this trader, I was quickly sold. This new trader, though, was unfortunately a clumsy trader, and while taking me to the place where he slept, he accidentally dropped me, at which point I fell to the bottom of the sea."
+                            "Upon finding this trader, I was quickly sold. This new trader, though, was unfortunately a clumsy trader, and while taking me to the place where he slept, he accidentally dropped me, at which point I fell to the bottom of the sea.",
+                    "You may have reached one ending, but you most certainly have not reached the final ending. Refresh the page, and try to keep the story going!"
                         ],[
                             "Did not find another Muslim trader",
                             "Now, he was ready to leave, as the monsoon winds which would carry his boat home would wait for nobody. He had managed to restock his spices after selling them in “中国” and bought some additional odd commodities, such as areca nuts, rhinoceros horns, and turtle shells, all of which had been imported from Javanese markets. The wealth which this trader had amassed appeared to be immeasurable to me, so I was glad that I could join him for the ride.",
                             "Before moving on, though, my owner returned the Chinese junks to the dock and swapped them out for his dhows, a freedom which signaled his great wealth. These new boats were held together not by nails, but by string. The hulls were sewn together, and the sails enabled these boats to maximally take advantage of the monsoon winds. The journey to Mangalore was long, but by now, I had grown used to such journeys, and before I knew it, I was already in Mangalore.",
                             "Spices were not rare; many spice traders gathered near Malabar coast, so trade in Mangalore was difficult for my owner. My owner also needed to be careful, due to the pirates that frequented the Netravati River, which flows through Mangalore. My owner disembarked with some of his goods to trade inside the city. As we went into the city, we saw goods such as indigo and ivory. We also saw fish markets run by the Mogaveera people, who are, unsurprisingly, fishers. They continued fishing despite all the obstacles they faced, whether that be war or competition in the fish markets. We also saw the farms of the Billiva people, who were known for their medicine and great loyalty. In fact, we even saw one such Billiva helping to cure a Brahmin despite the rigid oppositions that have come to be expected of Brahmins against interaction between different castes. The Nadava people too were farmers, though their farms were far more breath-taking than those of the Billivas due to their generally higher position in the caste structure. Some Nadavas, though, did not adhere to such structures, as they were Jainists, not Hindus. As we returned to the ship, my owner placed me down and left me during the night before his departure the next day. Unfortunately, . . . ",
                             [[
-                                "My owner seemed to be ignorant of the many pirates who were attracted to the great wealth of his ship.",
+                                "My owner seemed to be ignorant of the many pirates <br>who were attracted to the great wealth of his ship.",
                                 "I was jolted to the sound of wood smashing in the morning and was helpless as my captors secured me in their boat and departed to Bukhara.",
                                 "Upon arrival in Bukhara, part of the Muslim world, eager Persian, Indian, Chinese, and Russian merchants awaited to trade. I saw fleeces, silk, cotton, leather, carpets, clothing, and a wide variety of goods. I saw signs of religion in the Kalyan mosque, minaret, and the Mir-i Arab madrassah, a religious school. I saw advanced architecture and urban structure. I did not stay long; my captors quickly began attempting to sell me. As I watched, many traders had never seen jade before and were astounded by my beauty. I was eventually sold to a merchant who wanted to return to Kashgar in “中国” and, while there, sell me for a high price, since jade was valued in “中国” for being a symbol of the elite.",
-                                "I was alone with my thoughts as I traveled to Kashgar. I was angry and tired of being traded around and dreamt of continuing my role as a guardian. Once we arrived at Kashgar, my weariness began setting in. I no longer was astounded by the pottery and textiles that were traded here, nor was I astounded by the Yuezhi people or their cultural practices. The curiosity of the fact that there were Turkik people brought no entertainment to me. The government’s frequent upheaval and the never ending war between the Muslim and Chinese rulers brought no fear to my mind. All I wanted was to be a guardian, to feel that I was worth something, and these feelings finally came to fruition when a native bought me. In the home of this farmer who cultivated the most fertile lands, I was at last returned to the peaceful lifestyle for which I longed since I was sold by the last family I guarded. Upon finding my peace here, I was happy, and I continued living my peaceful life, invasion or not, up until the end of Mongol rule."
+                                "I was alone with my thoughts as I traveled to Kashgar. I was angry and tired of being traded around and dreamt of continuing my role as a guardian. Once we arrived at Kashgar, my weariness began setting in. I no longer was astounded by the pottery and textiles that were traded here, nor was I astounded by the Yuezhi people or their cultural practices. The curiosity of the fact that there were Turkik people brought no entertainment to me. The government’s frequent upheaval and the never ending war between the Muslim and Chinese rulers brought no fear to my mind. All I wanted was to be a guardian, to feel that I was worth something, and these feelings finally came to fruition when a native bought me. In the home of this farmer who cultivated the most fertile lands, I was at last returned to the peaceful lifestyle for which I longed since I was sold by the last family I guarded. Upon finding my peace here, I was happy, and I continued living my peaceful life, invasion or not, up until the end of Mongol rule.",
+                                "Congratulations! You have reached the final ending of this game, and you have seen all that there is to see! For a more convenient form of this essay to read, please refer to the link on the home page."
                             ],[
-                                "My owner spent too long in the city, and he would be cutting the timing with the Monsoon winds very close.",
+                                "My owner spent too long in the city, and he would <br>be cutting the timing with the Monsoon winds very close.",
+                                "In an effort to prolong his life, my owner boarded the ship and quickly departed toward Persia. However, the winds had shifted by now, and by the time we were in the middle of the ocean, our boat was too slow and we were doomed to starve in the middle of the sea. My owner died of starvation before we were shipwrecked, but I got caught in a storm after his death. The violent storm managed to break the walls of our dhow, and I slowly sank to the bottom of the sea, never to be seen again.",
+                    "You may have reached one ending, but you most certainly have not reached the final ending. Refresh the page, and try to keep the story going!"
                             ]]
                         ]]
 
@@ -50,10 +58,14 @@ var masterText = [
                 ]]
             ],[
                 "High ranking official",
+                "The disguise of my merchant allowed him to perform his heist, and I replaced the missing jade. The officials then proceded with the funeral ceremony. I was placed in the mouth of the deceased official and buried back into the Earth where I belonged. Aside from the occasional distaste for the decomposing official whose mouth I was in, I lived a happy life, back under the ground.",
+                    "You may have reached one ending, but you most certainly have not reached the final ending. Refresh the page, and try to keep the story going!"
             ]]
         ], 
         [
-            "Stay away from the military convoy ahead of us"
+            "Stay away from the military convoy ahead of us",
+            "The merchant made the decision I hoped for, but his foolishness doomed him. He died in the desert, and as a result, I was never found. Lost in the desert, I lived out the remainder of my surface years until I eventually was buried underneath the sand.",
+                    "You may have reached one ending, but you most certainly have not reached the final ending. Refresh the page, and try to keep the story going!"
         ]
     ]
 ];
@@ -68,13 +80,21 @@ var initialTextBoxLength;
 function nextText() {
     out.innerHTML = currentList[currentText]; 
     if(currentText > 0) prevButton.disabled = false;
-    currentText++;
-    if(currentText === currentList.length - 1) {
+    if(currentText == currentList.length - 1) {
         nextButton.disabled = true;
         prevButton.disabled = true;
-        console.log(currentText);
-        textBox.innerHTML += "<button id=\"optionA\"onclick=\"option1()\">" + currentList[currentText][0][0] + "</button>" +
-        "<button id=\"optionB\"onclick=\"option2()\">" + currentList[currentText][1][0] + "</button>";
+    }
+    else {
+        currentText++;
+        if(currentText === currentList.length - 1) {
+            if(currentList[currentText] != "Congratulations! You have reached the final ending of this game, and you have seen all that there is to see! For a more convenient form of this essay to read, please refer to the link on the home page." && currentList[currentText] != "You may have reached one ending, but you most certainly have not reached the final ending. Refresh the page, and try to keep the story going!") {
+                nextButton.disabled = true;
+                prevButton.disabled = true;
+                console.log(currentText);
+                textBox.innerHTML += "<button id=\"optionA\"onclick=\"option1()\">" + currentList[currentText][0][0] + "</button>" +
+                "<button id=\"optionB\"onclick=\"option2()\">" + currentList[currentText][1][0] + "</button>";
+            }
+        }
     }
 }
 
@@ -92,9 +112,11 @@ function option1() {
     prevButton = document.getElementById("prev");
     out = document.getElementById("Text");
     currentList = currentList[currentText][0];
-    currentText = 1;
+    console.log(currentList);
+    currentText = 0;
     nextButton.disabled = false;
     out.innerHTML = currentList[currentText];
+    currentText++;
 }
 
 function option2() {
@@ -104,9 +126,10 @@ function option2() {
     prevButton = document.getElementById("prev");
     out = document.getElementById("Text");
     currentList = currentList[currentText][1];
-    currentText = 1;
+    currentText = 0;
     nextButton.disabled = false;
     out.innerHTML = currentList[currentText];
+    currentText++;
 }
 
 function init() {
@@ -124,7 +147,6 @@ function init() {
     ctx.fillRect(50, 50, 150, 100);
     var test = new Image();
     test.onload = () => {
-        console.log("jgduf");
         ctx.drawImage(test, 0, 0);
     };
     test.src = "devil-bayer.png";
