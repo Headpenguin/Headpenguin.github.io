@@ -47,3 +47,7 @@ img {
 #formation {
     z-index: 1;
 }
+#tradeMap {
+    position:static;
+}
+
