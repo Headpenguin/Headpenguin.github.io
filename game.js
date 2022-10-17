@@ -88,10 +88,9 @@ images = [
     [21, "kashgar", 0]
 ];
 
-
-
-];
 var currentText = 0;
+var totalClicks = 0;
+var route = 0;
 var currentList = masterText;
 var nextButton;
 var prevButton;
@@ -100,9 +99,15 @@ var textBox;
 var initialTextBoxLength;
 
 function nextText() {
-    out.innerHTML = currentList[currentText]; 
+    out.innerHTML = currentList[currentText];
+    for(conds in images) {
+        if(conds[0] === totalClicks && conds[2] === route) {
+            image = document.getElementById(conds[1]);
+            image.style.zIndex = String(parseInt(image.style.zIndex) + 16);
+        }
+    }
     if(currentText > 0) prevButton.disabled = false;
-    if(currentText == currentList.length - 1) {
+    if(currentText === currentList.length - 1) {
         nextButton.disabled = true;
         prevButton.disabled = true;
     }
@@ -125,6 +130,7 @@ function prevText() {
     nextButton.disabled = false;
     if(currentText <= 0) prevButton.disabled = true
     out.innerHTML = currentList[currentText];
+    totalClick--;
 }
 
 function option1() {
@@ -139,6 +145,7 @@ function option1() {
     nextButton.disabled = false;
     out.innerHTML = currentList[currentText];
     currentText++;
+    route = 0;
 }
 
 function option2() {
@@ -152,6 +159,7 @@ function option2() {
     nextButton.disabled = false;
     out.innerHTML = currentList[currentText];
     currentText++;
+    route = 1;
 }
 
 function init() {
