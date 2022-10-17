@@ -23,6 +23,7 @@ div {
 }
 #Map {
     float: right;
+    display: block;
     width: 880px;
 }
 #canvas {
